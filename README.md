@@ -1,17 +1,9 @@
 <div align="center">
-  
-  ![GitHub repo size](https://img.shields.io/github/repo-size/codewithsadee/hoolix)
-  ![GitHub stars](https://img.shields.io/github/stars/codewithsadee/hoolix?style=social)
-  ![GitHub forks](https://img.shields.io/github/forks/codewithsadee/hoolix?style=social)
-  [![Twitter Follow](https://img.shields.io/twitter/follow/codewithsadee?style=social)](https://twitter.com/intent/follow?screen_name=codewithsadee)
-  [![YouTube Video Views](https://img.shields.io/youtube/views/5J01tEPlF3A?style=social)](https://youtu.be/5J01tEPlF3A)
 
-  <br />
-  <br />
 
-  <h2 align="center">Hoolix - Digital Agency Website</h2>
+  <h2 align="center">All A's Transportation - Digital compliant Website</h2>
 
-  Hoolix is a fully responsive digital agency website, <br />Responsive for all devices, build using HTML, CSS, and JavaScript.
+ All A's Transportation is a fully responsive digital compliant website, <br />Responsive for all devices, build using HTML, CSS, and JavaScript.
 
   <a href="https://codewithsadee.github.io/hoolix/"><strong>➥ Live Demo</strong></a>
 
@@ -31,23 +23,23 @@ Before you begin, ensure you have met the following requirements:
 
 ### Run Locally
 
-To run **Hoolix** locally, run this command on your git bash:
+To run **All A's Transportation** locally, run this command on your git bash:
 
 Linux and macOS:
 
 ```bash
-sudo git clone https://github.com/codewithsadee/hoolix.git
+sudo git clone https://github.com/tolacode7/hoolix.git
 ```
 
 Windows:
 
 ```bash
-git clone https://github.com/codewithsadee/hoolix.git
+git clone https://github.com/tolacode7/hoolix.git
 ```
 
 ### Contact
 
-If you want to contact with me you can reach me at [Twitter](https://www.twitter.com/codewithsadee).
+If you want to contact with me you can reach me at [Twitter](https://www.twitter.com/meet_tola).
 
 ### License
 

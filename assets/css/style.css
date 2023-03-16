@@ -271,6 +271,8 @@ body {
   left: 0;
   width: 100%;
   z-index: 4;
+  background-color: var(--white);
+  box-shadow: var(--shadow-2);
 }
 
 .header.active {
@@ -284,12 +286,8 @@ body {
   align-items: center;
 }
 
-.logo {
-  color: var(--rich-black-fogra-29-1);
-  font-family: var(--ff-cuprum);
-  font-size: 33px;
-  font-weight: var(--fw-500);
-  line-height: 1;
+header .container .logo {
+  width: 20%;
 }
 
 .nav-open-btn {
@@ -373,7 +371,7 @@ body {
 }
 
 .hero-subtitle {
-  color: var(--go-green);
+  color: var(--white);
   font-size: var(--fs-12);
   font-weight: var(--fw-500);
   max-width: max-content;
@@ -386,12 +384,19 @@ body {
   left: -20px;
   width: 15px;
   height: 2px;
-  background-color: var(--go-green);
+  background-color: var(--white);
 }
 
-.hero-title { margin-block: 10px 15px; }
+.hero-title { 
+  margin-block: 10px 15px;
+  color: var(--white);
+ }
 
-.hero-text { color: var(--rich-black-fogra-29-1); }
+ .hero-logo { 
+  width: 80%;
+ }
+
+.hero-text { color: var(--white); }
 
 .hero .btn-group { margin-block-start: 40px; }
 
@@ -820,6 +825,19 @@ body {
  * responsive for large than 575px screen
  */
 
+ @media (min-width: 375px) {
+
+ /**
+   * HEADER
+   */
+   header .container .logo { width: 40%; }
+
+}
+
+/**
+ * responsive for large than 575px screen
+ */
+
 @media (min-width: 575px) {
 
   /**
@@ -842,6 +860,9 @@ body {
    * REUSED STYLE
    */
 
+
+   
+   
   .container {
     max-width: 540px;
     width: 100%;
@@ -853,7 +874,7 @@ body {
   /**
    * HEADER
    */
-
+   header .container .logo { width: 40%; }
   .header .container { max-width: unset; }
 
 
@@ -904,6 +925,7 @@ body {
    * REUSED STYLE
    */
 
+   header .container .logo { width: 40%; }
   .container { max-width: 720px; }
 
   .btn { padding: 16px 32px; }
@@ -979,14 +1001,16 @@ body {
 
   .navbar-link {
     color: var(--rich-black-fogra-29-1);
-    font-weight: var(--fw-500);
+    font-weight: var(--fw-300);
     padding-block: 0;
   }
+
+  header .container .logo { width: 20%; }
 
   .header .btn-outline {
     display: block;
     color: var(--go-green);
-    font-weight: var(--fw-600);
+    font-weight: var(--fw-300);
     text-transform: uppercase;
     border: 1px solid var(--go-green);
     padding: 7px 18px;
@@ -1009,6 +1033,7 @@ body {
   .hero .container {
     grid-template-columns: 1fr 0.7fr;
     align-items: center;
+    justify-content: center;
   }
 
   .hero-subtitle { margin-inline: 25px 0; }
@@ -1109,6 +1134,8 @@ body {
   .container { max-width: 1140px; }
 
   .btn-link { --fs-12: 1.5rem; }
+
+  header .container .logo { width: 20%; }
 
 
 

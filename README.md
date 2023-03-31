@@ -11,9 +11,6 @@
 
 <br />
 
-### Demo Screeshots
-
-![Hoolix Desktop Demo](./readme-images/desktop.png "Desktop Demo")
 
 ### Prerequisites
 

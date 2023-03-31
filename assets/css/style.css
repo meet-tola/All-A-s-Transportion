@@ -352,7 +352,6 @@ header .container .logo {
 .nav-action-btn {
   display: flex;
   align-items: center; 
-  gap: 10px;
 }
 
 .nav-action-btn:is(:hover, :focus) { color: var(--rich-black-fogra-29); }
